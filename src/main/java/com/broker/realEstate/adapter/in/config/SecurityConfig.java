@@ -1,4 +1,4 @@
-package com.broker.realEstate;
+package com.broker.realEstate.adapter.in.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
