@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: realEstate
+  datasource:
+    url: jdbc:postgresql://pg-58300be-sharunyasr05-40f9.e.aivencloud.com:16078/defaultdb?sslmode=require
+    username: avnadmin
+    password: 
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: false
+  profiles:
+    active: local
+  h2:
+    console:
+      enabled: true
