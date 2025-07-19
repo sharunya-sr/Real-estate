@@ -43,7 +43,7 @@ function RegisterPage() {
     if (!validate()) return;
 
     try {
-      await axios.post("http://localhost:8080/register", form);
+      await axios.post("http://localhost:8080/broker/register", form);
       setMessage("✅ Registered successfully!");
       setForm({ email: "", full_name: "", password: "" });
     } catch (err) {
